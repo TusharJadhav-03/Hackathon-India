@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Hero Banner */
+.first {
+  background-image: url('air-bg.jpg');
+    background-size: cover;
+    background-position: center;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: orange;
+  padding: 20px;
+}
+
+.first-1 h1 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+.first-1 p {
+  font-size: 1.2rem;
+}
+
+
+.second {
+  max-width: 800px;
+  margin: 60px auto 40px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.second h2 {
+  color: rgba(0, 0, 0, 0.849);
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.fighters {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.fighters h2 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.826);
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.fighter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.fighter-card {
+  width: 270px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.fighter-card:hover {
+  transform: translateY(-5px);
+}
+
+.fighter-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.fighter-card h3 {
+  margin-top: 15px;
+  color: orange;
+  font-size: 1.3rem;
+}
+
+.fighter-card p {
+  padding: 10px 15px 20px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+} 
